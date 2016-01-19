@@ -2,7 +2,7 @@
 A home automation project allowing control of lighting, heating and other appliances around the home with various sensors and actuators.
 
 ## Temperature Sensor
-This code was taken from http://bildr.org/2011/07/ds18b20-arduino/ and adapted to suit. It is an arduino sketch that with some very basic wiring and a DS18B20 temperature chip will measure the temperature in that location and feed the data serially via the usb cable to be read by the serial reader.
+This code was taken from [bildr.org] (http://bildr.org/2011/07/ds18b20-arduino/) and adapted to suit. It is an arduino sketch that with some very basic wiring and a DS18B20 temperature chip will measure the temperature in that location and feed the data serially via the usb cable to be read by the serial reader.
 
 ## TRV
 There are several wireless thermostatic radiator valves on the market. Some research is required as to which ones are open or the easiest to hack. Current favourite is the Energeneie range due to the fact they offer raspberry pi connectivity.
