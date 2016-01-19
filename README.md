@@ -21,7 +21,7 @@ PIR's, proximity and geo location capabilities will go under this heading.
 
 # Gateway
 
-The gateway will act as a server for the web interface, and will drive all the wireless modules so needs to act as both reciever and transmitter.
+The gateway will act as a server for the web interface, and will drive all the wireless modules so needs to act as both reciever and transmitter. All data recieved will be passed to the server for processing. All commands to controllable sensors and actuators will be sent form the gateway.
 
 ## Serial Reader
 This is a simple python module that reads the serial data from the usb port (or any port specified). It then parses the serial data and stores the information in the mongo database.
