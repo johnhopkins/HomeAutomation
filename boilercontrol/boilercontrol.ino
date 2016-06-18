@@ -1,4 +1,4 @@
-//define the arrays thatdetermine how long to transmit/wait between pulses  
+ //define the arrays that determine how long to transmit/wait between pulses  
  //values are in on/off pairs, microseconds (1/1,000,000 of a second)  
  //1000 microseconds = 1 millisecond (ms)  
  //1ms = 1000/second  

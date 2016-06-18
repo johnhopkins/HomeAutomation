@@ -21,13 +21,13 @@ PIR's, proximity and geo location capabilities will go under this heading.
 
 # Gateway
 
-The gateway will act as a server for the web interface, and will drive all the wireless modules so needs to act as both reciever and transmitter. All data recieved will be passed to the server for processing. All commands to controllable sensors and actuators will be sent form the gateway.
+The gateway will act as a server for the web interface, and will drive all the wireless modules so needs to act as both reciever and transmitter. All data recieved will be passed to the server for processing. All commands to controllable sensors and actuators will be sent from the gateway.
 
 ## Serial Reader
-This is a simple python module that reads the serial data from the usb port (or any port specified). It then parses the serial data and stores the information in the mongo database.
+This is a simple python module which reads the serial data from the usb port (or any port specified). It then parses the serial data and stores the information in the mongo database, for use with the web interface as required.
 
 ## Boiler Control
-This very simply turns on and off the boiler via RF. The file is an arduino sketch which requires a 433MHz transmitter set up. I aim to add the schematics for this soon. N.B. This sketch works on my home boiler a Worcester Bosch Greenstar 30CDi combi boiler. I sniffed the codes from my thermostat to find the on off codes, and this file haas been constructed to suit my boiler. I believe that all the thermostat and boiler pairings have unique codes, so this will probably not work with your boiler. Likewise if your boiler operates on a different radio frequency. Adaptations to the code will be required to make it work for you. I will eventually put a write up on here as to how I hacked this to work. Get in touch in the meantime if you would like to know how I did it. I don't see any reason this code cannot be adapted to suit any make of boiler on any frequency as long as you have the hardware to do it.
+This very simply turns on and off the boiler via RF. The file is an arduino sketch which requires a 433MHz transmitter set up. I aim to add the schematics for this soon. N.B. This sketch works on my home boiler a Worcester Bosch Greenstar 30CDi combi boiler. I sniffed the codes from my thermostat to find the on off codes, and this file has been constructed to suit my boiler. I believe that all the thermostat and boiler pairings have unique codes, so this will probably not work with your boiler. Likewise if your boiler operates on a different radio frequency then adaptations to the code will be required to make it work for you. I will eventually put a write up on here as to how I hacked this to work. Get in touch in the meantime if you would like to know how I did it. I don't see any reason this code cannot be adapted to suit any make of boiler on any frequency as long as you have the hardware to do it.
 
 ## Flaskapp
 'Mighty oaks from small acorns grow'.
